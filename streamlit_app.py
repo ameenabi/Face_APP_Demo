@@ -11,7 +11,7 @@ import os
 global_r = 0
 global_g = 0
 global_b = 0
-
+print("hi")
 # Function to visualize parsing maps
 def vis_parsing_maps(im, parsing_anno, save_path, stride, save_im):
     part_colors = [[255, 0, 0], [255, 85, 0], [255, 170, 0],[255, 0, 85], [255, 0, 170],
