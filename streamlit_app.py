@@ -146,7 +146,7 @@ def main():
         if st.button("Change Color"):
             hair_changed = hair_color_chnge(norm_img, mask_image, [rgb_color[2], rgb_color[1], rgb_color[0]])
             cv2.imwrite("hair_style.png", hair_changed)
-            st.image("hair_style.png", use_column_width=True)
+            st.image("hair_style.png", use_container_width=True)
 
 if __name__ == "__main__":
     main()
